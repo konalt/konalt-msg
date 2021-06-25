@@ -1,0 +1,34 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: red;
+}
+
+.state,
+.states {
+    height: 100%;
+    padding: 5px;
+}
+
+.buglink {
+    color: blue;
+    text-decoration: none;
+}
+
+.state.inactive-state {
+    display: none;
+}
+
+.state-description {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
